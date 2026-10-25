@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111827">
+  <title>پنل اختصاصی فروشگاه</title>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <div class="brand-icon">✦</div>
+      <div>
+        <h1>پنل فروشگاه</h1>
+        <p>به پنل اختصاصی خوش آمدید</p>
+      </div>
+    </header>
+
+    <section class="welcome">
+      <span class="eyebrow">DASHBOARD</span>
+      <h2>چه کاری می‌خواهید انجام دهید؟</h2>
+      <p>یکی از گزینه‌های زیر را انتخاب کنید.</p>
+    </section>
+
+    <section class="menu">
+      <button class="menu-card purple" data-action="products">
+        <span class="card-icon">🛍️</span>
+        <span class="card-text">
+          <strong>محصولات</strong>
+          <small>مشاهده محصولات فروشگاه</small>
+        </span>
+        <span class="arrow">←</span>
+      </button>
+
+      <button class="menu-card blue" data-action="add_product">
+        <span class="card-icon">➕</span>
+        <span class="card-text">
+          <strong>افزودن محصول</strong>
+          <small>ثبت محصول جدید</small>
+        </span>
+        <span class="arrow">←</span>
+      </button>
+
+      <button class="menu-card orange" data-action="orders">
+        <span class="card-icon">📋</span>
+        <span class="card-text">
+          <strong>سفارش‌ها</strong>
+          <small>مشاهده سفارش‌های ثبت‌شده</small>
+        </span>
+        <span class="arrow">←</span>
+      </button>
+
+      <button class="menu-card green" data-action="track_order">
+        <span class="card-icon">📦</span>
+        <span class="card-text">
+          <strong>پیگیری سفارش</strong>
+          <small>بررسی وضعیت سفارش</small>
+        </span>
+        <span class="arrow">←</span>
+      </button>
+
+      <button class="menu-card pink" data-action="faq">
+        <span class="card-icon">❓</span>
+        <span class="card-text">
+          <strong>سؤالات متداول</strong>
+          <small>راهنمای استفاده از فروشگاه</small>
+        </span>
+        <span class="arrow">←</span>
+      </button>
+
+      <button class="menu-card dark" data-action="support">
+        <span class="card-icon">🎧</span>
+        <span class="card-text">
+          <strong>پشتیبانی</strong>
+          <small>ارتباط با پشتیبانی</small>
+        </span>
+        <span class="arrow">←</span>
+      </button>
+    </section>
+
+    <footer>فروشگاه شما · پنل هوشمند</footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
